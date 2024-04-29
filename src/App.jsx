@@ -1,32 +1,33 @@
 import './App.css'
-import { List } from './components/List';
+import { Button } from './components/Button'
+/*import { List } from './components/List';*/
 /*import { Button } from './components/Button'*/
-import { WapperList } from './components/WrapperList';
-/*
+/*import { WapperList } from './components/WrapperList';*/
+
 function App() {
   return (
     <>
-      <h1>Jakuna Matata</h1>
+      <h1>HOLA DESDE VITE</h1>
       <Button/>
     </>
   )
 }
 export default App
-*/
+
 /*
 function App() {
   const buttonText = "Count : ";
 
   return (
     <>
-      <h1>Jakuna Matata</h1>
+      <h1>HOLA DESDE VITE</h1>
       <Button text={buttonText}/>
     </>
   )
 }
 export default App
-*/
-function App() {
+
+/*function App() {
   return (
     <>
       <WapperList>
@@ -40,3 +41,4 @@ function App() {
   )
 }
 export default App
+*/
