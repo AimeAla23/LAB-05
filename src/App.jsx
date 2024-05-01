@@ -1,14 +1,12 @@
+import { CompWithProps } from './components/CompWithProps'
 import './App.css'
-import { Button } from './components/Button'
-import { RandomComp } from './components/RandomComponent'
-
-/*import { List } from './components/List';*/
-/*import { Button } from './components/Button'*/
-/*import { WapperList } from './components/WrapperList';*/
-
 function App() {
-  return (
-    <RandomComp />
-  )
+  const inputText = "    ";
+   return (
+    <>
+<CompWithProps text={inputText} outputElement="p" />
+   </>
+   )
 }
+
 export default App
